@@ -14,6 +14,8 @@
 		CF015AED1DC5091E00C0BA3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF015AEC1DC5091E00C0BA3D /* Assets.xcassets */; };
 		CF015AF01DC5091E00C0BA3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF015AEE1DC5091E00C0BA3D /* LaunchScreen.storyboard */; };
 		CF015AF81DC5197100C0BA3D /* TodoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF015AF71DC5197100C0BA3D /* TodoRouter.swift */; };
+		CF015AFA1DC51BD500C0BA3D /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF015AF91DC51BD500C0BA3D /* Todo.swift */; };
+		CF015AFC1DC51C2600C0BA3D /* Todo+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF015AFB1DC51C2600C0BA3D /* Todo+Networking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		CF015AEF1DC5091E00C0BA3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF015AF11DC5091E00C0BA3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF015AF71DC5197100C0BA3D /* TodoRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoRouter.swift; sourceTree = "<group>"; };
+		CF015AF91DC51BD500C0BA3D /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		CF015AFB1DC51C2600C0BA3D /* Todo+Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Todo+Networking.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 			children = (
 				CF015AE51DC5091E00C0BA3D /* AppDelegate.swift */,
 				CF015AE71DC5091E00C0BA3D /* ViewController.swift */,
+				CF015AF91DC51BD500C0BA3D /* Todo.swift */,
+				CF015AFB1DC51C2600C0BA3D /* Todo+Networking.swift */,
 				CF015AF71DC5197100C0BA3D /* TodoRouter.swift */,
 				CF015AE91DC5091E00C0BA3D /* Main.storyboard */,
 				CF015AEC1DC5091E00C0BA3D /* Assets.xcassets */,
@@ -218,6 +224,8 @@
 				CF015AF81DC5197100C0BA3D /* TodoRouter.swift in Sources */,
 				CF015AE81DC5091E00C0BA3D /* ViewController.swift in Sources */,
 				CF015AE61DC5091E00C0BA3D /* AppDelegate.swift in Sources */,
+				CF015AFC1DC51C2600C0BA3D /* Todo+Networking.swift in Sources */,
+				CF015AFA1DC51BD500C0BA3D /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
